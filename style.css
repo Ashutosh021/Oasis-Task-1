@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(196, 255, 255);
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 3px 5px rgba(95, 92, 99, 0.5);
+}
+
+.heading {
+    text-align: center;
+    padding: 12px;
+    padding: 20px;
+}
+
+.heading p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.main div {
+    padding: 10px;
+}
+
+.main div p {
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+    color: gray;
+}
+
+.main div input {
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.main div select {
+    width: 50%;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn {
+    padding: 30px;
+}
+
+#btn button {
+    font-size: 20px;
+    padding: 5px;
+    width: 90%;
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+    margin-left: 15px;
+}
+
+#btn button:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+
+@media (max-width:400px) {
+    .container {
+        /* margin-top: 0; */
+        width: 95%;
+    }
+}

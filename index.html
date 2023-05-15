@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <script src="https://kit.fontawesome.com/f0d884f97a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Temprature Converter</h1>
+            <p>&deg;F to &deg;C || &deg;C to &deg;F </p>
+        </div>
+
+        <div class="main">
+            <div>
+                <p>Degree</p>
+                <input type="number" id="deg">
+            </div>
+            <div>
+                <p>Convert to</p>
+                <select id="unit" name="unit">
+                    <option value="F">Fahrenheit</option>
+                    <option value="C">Celcius</option>
+                </select>
+            </div>
+            <div>
+                <p>Result</p>
+                <input type="text" id="res">
+            </div>
+        </div>
+        <div id="btn">
+            <button onclick="calc()">Convert</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
